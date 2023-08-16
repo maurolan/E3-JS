@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  /* border: black 1px solid; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background-image: url(./img/fondo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.head-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  width: 70vw;
+  background-color: rgba(63, 81, 131, 0.822);
+  border-radius: 20px;
+  box-shadow: brown 5px 5px 20px;
+  margin-top: 20px;
+}
+
+.titulo {
+  color: rgb(252, 6, 6);
+  text-shadow: white 2px 2px 5px;
+  font-size: 50px;
+}
+
+.slogan {
+  color: rgb(147, 255, 7);
+  text-shadow: rgb(43, 28, 28) 2px 2px 5px;
+  font-size: 30px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(240, 248, 255, 0.952);
+  width: 550px;
+  height: 70px;
+  border-radius: 20px;
+}
+.label-buscar {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.buscar-box {
+  width: 80px;
+  height: 40px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: rgb(107, 6, 6) 1px 1px 80px 5px;
+  color: crimson;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.buscar-btn {
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(10, 10, 46);
+  color: aliceblue;
+  font-size: 20px;
+}
+.promocion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.pizza-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  background-color: rgba(240, 248, 255, 0.747);
+  overflow: hidden;
+  width: 480px;
+  height: 600px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.cardPizza {
+  width: 400px;
+}
+.img-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  margin-top: 10px;
+}
+.pizza-img {
+  width: 350px;
+  border-radius: 20px;
+  border: black 2px solid;
+}
+
+.pizza-name {
+  font-size: 40px;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  width: 400px;
+  height: 60px;
+  margin: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: yellow 2px 2px 20px;
+}
+
+.pizza-ingredientes {
+  font-size: 25px;
+  text-align: center;
+}
+
+.pizza-precio {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.pizza-notFound {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(66, 9, 7);
+  height: 100px;
+  margin: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .initial-container {
+  visibility: hidden;
+} */
